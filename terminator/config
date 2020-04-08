@@ -1,0 +1,25 @@
+[global_config]
+  title_font = Inconsolata 12
+  title_inactive_bg_color = "#29353b"
+  title_inactive_fg_color = "#7f898e"
+  title_transmit_bg_color = "#29353b"
+  title_transmit_fg_color = "#cfd8dc"
+  title_use_system_font = False
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#29353b"
+    background_darkness = 0.27
+    cursor_color = "#aaaaaa"
+    font = Inconsolata 11
+    foreground_color = "#cfd8dc"
+    use_system_font = False
